@@ -1,0 +1,108 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator By dk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div>
+                    <input type="text" name="display" id="display" readonly>
+                </div>
+                <div>
+                    <button type="button" onclick="clearDisplay()" value="AC">AC</button>
+                    <button type="button" onclick="appendNumber(7)" value="DE">DE</button>
+                    <button type="button" onclick="appendNumber(8)" value=".">.</button>
+                    <button type="button" onclick="performOperation('/')" value="/">/</button>
+                </div>
+                <div>
+                    <button type="button" onclick="appendNumber(7)" value="7">7</button>
+                    <button type="button" onclick="appendNumber(8)" value="8">8</button>
+                    <button type="button" onclick="appendNumber(9)" value="9">9</button>
+                    <button type="button" onclick="performOperation('+')" value="*">+</button>
+                <div>
+                    <button type="button" onclick="appendNumber(4)" value="4">4</button>
+                    <button type="button" onclick="appendNumber(5)" value="5">5</button>
+                    <button type="button" onclick="appendNumber(6)" value="6">6</button>
+                    <button type="button" onclick="performOperation('*')" value="-">-</button>
+                </div>
+                <div>
+                    <button type="button" onclick="appendNumber(1)" value="1">1</button>
+                    <button type="button" onclick="appendNumber(2)" value="2">2</button>
+                    <button type="button" onclick="appendNumber(3)" value="3">3</button>
+                    <button type="button" onclick="performOperation('-')" value="+">+</button>
+                </div>
+                <div>
+                    <button type="button" onclick="appendNumber(0)" value="00">00</button>
+                    <button type="button" onclick="appendNumber(0)" value="0">0</button>
+        
+                    <button type="button" onclick="performOperation('=')" value="=">=</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator By DK</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h1>Made By DK</h1>
+            <form>
+                <div>
+                    <input type="text" id="display" readonly>
+                </div>
+                <div>
+                    <button type="button" onclick="clearDisplay()">AC</button>
+                    <button type="button" onclick="deleteLast()">DE</button>
+                    <button type="button" onclick="appendNumber('.')">.</button>
+                    <button type="button" onclick="performOperation('/')">/</button>
+                </div>
+                <div>
+                    <button type="button" onclick="appendNumber(7)">7</button>
+                    <button type="button" onclick="appendNumber(8)">8</button>
+                    <button type="button" onclick="appendNumber(9)">9</button>
+                    <button type="button" onclick="performOperation('*')">*</button>
+                </div>
+                <div>
+                    <button type="button" onclick="appendNumber(4)">4</button>
+                    <button type="button" onclick="appendNumber(5)">5</button>
+                    <button type="button" onclick="appendNumber(6)">6</button>
+                    <button type="button" onclick="performOperation('-')">-</button>
+                </div>
+                <div>
+                    <button type="button" onclick="appendNumber(1)">1</button>
+                    <button type="button" onclick="appendNumber(2)">2</button>
+                    <button type="button" onclick="appendNumber(3)">3</button>
+                    <button type="button" onclick="performOperation('+')">+</button>
+                </div>
+                <div>
+                    <button type="button" onclick="appendNumber(0)">0</button>
+                    <button type="button" onclick="appendNumber('00')">00</button>
+                    <button type="button" onclick="calculateResult()">=</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+  
+    
+   
+</body>
+</html>
